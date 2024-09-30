@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas com HTML e CSS</title>
+    <style>
+        
+        body{
+            background-color: #c68cfcb4;
+        }
+        table{ 
+            border: 1px solid #7d10e2;
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+           
+        }
+        th, td{
+            border: 1px solid  #4b1c77;
+            padding: 5px;
+            
+        }
+
+        th{
+            background-color: #bb75ec;
+        }
+        tr{
+            background-color: #eacdff;
+        }
+        tr:hover{
+            background-color: #dc53e3;
+        }
+        thead{
+            color: #7d2c9f;
+        }
+        tbody{
+            color:  #b68bd4;
+        }
+        tfoot{
+            color: rgb(121, 56, 149);
+        }
+       
+        
+    
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption> Preços de Produtos  Eletrônicos</caption> 
+      
+        <thead>
+            <tr>
+                <th>Produtos</th>
+                <th> Preços</th>
+            </tr>
+         </thead>
+
+        <tbody>
+
+
+            <tr>
+            
+            </tr>
+            <tr>
+                <td> Notebobook</td>
+                <td> R$ 3.500,00</td>
+            </tr>
+            <tr>
+                <td> Smartphone </td>
+                <td> R$ 1.200,00</td>
+            </tr>
+        
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>R$ 4.700,00</td>
+            </tr>
+        </tfoot>
+    </table>
+<pre>
+
+</pre>
+    <table>
+        <caption>
+            Tamo Junto:)
+        </caption>
+
+        <thead class="tmj">
+           <th colspan="2">TMJ</th>
+        </thead>
+
+       <tr>
+        <td> sla.1</td>
+        <td>sla.1,1</td>
+       </tr>
+
+       <tr>
+        <td rowspan="3">sla.2.1</td>
+        <td>sla.2,2</td>
+
+       </tr>
+    <tr>
+        <td>tnj-3</td>
+    </tr>
+    <tr>
+        <td>tmj.4</td>
+    </tr>
+    <tr>
+        <td>lalala</td>
+        <td>hohoho</td>
+    </tr>
+    </table>
+
+
+
+
+</body>
+</html>
